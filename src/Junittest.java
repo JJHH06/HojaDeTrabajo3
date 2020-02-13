@@ -10,12 +10,12 @@ class Junittest {
 		sr.selectionSort(sr.listadoDesordenado(100));
 	}
 	void testMerge() {
-		Ordenador sr = new Ordenador();
+		Ordenador sr0 = new Ordenador();
 		sr.mergeSort(sr.listadoDesordenado(100));
 	}
 	
 	void quickSelection() {
-		Ordenador sr = new Ordenador();
+		Ordenador sr1 = new Ordenador();
 		sr.quickSort(sr.listadoDesordenado(100));
 	}
 
